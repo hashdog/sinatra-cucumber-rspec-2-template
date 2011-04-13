@@ -1,0 +1,25 @@
+This template was make with https://github.com/bernd/cucumber-sinatra
+
+== Rspec 2 ==
+
+#ruby spec/example_spec.rb 
+.
+
+Finished in 0.06865 seconds
+1 example, 0 failures
+
+== Cucumber ==
+
+#cucumber features
+Feature: View my page
+  In order for visitors to feel welcome
+  We must go out of our way
+  With a kind greeting
+
+  Scenario: My page                # features/my_page.feature:6
+    Given I am viewing my page     # features/step_definitions/my_page_steps.rb:1
+    Then I should see "Hello Api!" # features/step_definitions/web_steps.rb:107
+
+1 scenario (1 passed)
+2 steps (2 passed)
+0m0.438s
