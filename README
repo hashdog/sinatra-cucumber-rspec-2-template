@@ -1,5 +1,3 @@
-This template was make with https://github.com/bernd/cucumber-sinatra
-
 == Rspec 2 ==
 
 #ruby spec/example_spec.rb 
